@@ -26,7 +26,6 @@ const Final = ({ conversationState }) => {
               height={400}
               width={400}
               className="h-8 w-8"
-              alt="L I A R"
             />
             <div className="bg-gray-700 text-lg text-white p-3 rounded-lg whitespace-pre-wrap max-w-full break-words">
               <p>{convo.text}</p>
