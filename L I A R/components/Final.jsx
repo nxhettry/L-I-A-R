@@ -22,6 +22,7 @@ const Final = ({ conversationState }) => {
           <div className="flex gap-4 items-center justify-start mt-2">
             <Image
               src={"/logo.svg"}
+              alt="icon"
               height={400}
               width={400}
               className="h-8 w-8"
