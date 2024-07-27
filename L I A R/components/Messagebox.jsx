@@ -49,9 +49,9 @@ const Messagebox = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex items-center w-[95%] md:max-w-3xl mx-auto"
+      className="flex items-center  w-[95%] md:max-w-3xl mx-auto"
     >
-      <div className="relative flex justify-between pl-3 pr-2 h-[3.2rem] items-center w-full bg-searchBox rounded-full">
+      <div className=" relative flex justify-between pl-3 pr-2 h-[3.2rem] items-center w-full bg-searchBox rounded-full">
         <div className="flex items-center h-full w-full gap-3">
           <Link href="/">
             <Alertbox />

@@ -75,6 +75,9 @@ module.exports = {
         "searchBox": "#121212",
         "searchBtn": "#676767",
       },
+      fontFamily: {
+        'ubuntu': ['Ubuntu', 'sans-serif'],
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],
